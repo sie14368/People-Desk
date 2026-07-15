@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeopleDesk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>PeopleDesk</h1>
+        <p class="subtitle">Employee Management System</p>
+
+        <div class="form-box">
+
+            <input type="text" id="employeeName" placeholder="Employee Name">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <input type="text" id="department" placeholder="Department">
+
+            <input type="text" id="designation" placeholder="Designation">
+
+            <input type="number" id="salary" placeholder="Salary">
+
+            <button onclick="addEmployee()">
+                Add Employee
+            </button>
+
+        </div>
+
+        <hr>
+
+        <h2>Employees</h2>
+
+        <div id="employeeList">
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
