@@ -31,13 +31,4 @@ PeopleDesk is a simple Employee Management System built using Spring Boot and My
 | PUT | /employees/{id} |
 | DELETE | /employees/{id} |
 
-## How to Run
 
-1. Clone this repository.
-2. Configure your MySQL database in `application.properties`.
-3. Run the Spring Boot application.
-4. Open your browser and visit:
-
-```
-http://localhost:8080
-```
