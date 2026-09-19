@@ -1,4 +1,4 @@
-# PeopleDesk
+ # PeopleDesk
 
 PeopleDesk is a simple Employee Management System built using Spring Boot and MySQL. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on employee records through a simple web interface.
 
